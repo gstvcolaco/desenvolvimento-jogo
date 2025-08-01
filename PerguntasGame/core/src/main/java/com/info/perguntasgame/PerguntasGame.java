@@ -11,6 +11,9 @@ import com.badlogic.gdx.utils.ScreenUtils;
 public class PerguntasGame extends ApplicationAdapter {
     private SpriteBatch batch;
     private Texture image;
+    int vidaJogador = 100;
+    int vidaInimigo = 60;
+
 
     @Override
     public void create() {
@@ -30,5 +33,11 @@ public class PerguntasGame extends ApplicationAdapter {
     public void dispose() {
         batch.dispose();
         image.dispose();
+    }
+    private void selecionarResposta{
+        if(Gdx.input.isKeyJustPressed(Input.Keys.NUM_1)){
+            
+        }
+    }
     }
 }
