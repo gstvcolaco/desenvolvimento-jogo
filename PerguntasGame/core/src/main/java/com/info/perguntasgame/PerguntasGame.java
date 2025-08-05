@@ -28,6 +28,7 @@ public class PerguntasGame extends ApplicationAdapter {
   
     int contador;
 
+
     @Override
     public void create() {
         contador=0;
@@ -80,5 +81,11 @@ public class PerguntasGame extends ApplicationAdapter {
     public void dispose() {
         batch.dispose();
         image.dispose();
+    }
+    private void selecionarResposta{
+        if(Gdx.input.isKeyJustPressed(Input.Keys.NUM_1)){
+            
+        }
+    }
     }
 }
