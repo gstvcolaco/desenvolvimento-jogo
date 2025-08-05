@@ -25,6 +25,7 @@ public class PerguntasGame extends ApplicationAdapter {
     private Texture Resposta;
     private Texture PoderCarregar;
     private Texture PoderEmitido;
+    private Texture ExcluirDepois; // ksafdoihefgouhewaogi
   
     int contador;
 
