@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "texto": "Qual é a capital do Japão?",
+      "alternativas": ["Pequim", "Seul", "Tóquio", "Bangkok"],
+      "respostaCorreta": "Tóquio"
+    },
+    {
+      "id": 2,
+      "texto": "Quanto é 7 x 8?",
+      "alternativas": ["54", "56", "48", "58"],
+      "respostaCorreta": "56"
+    },
+    {
+      "id": 3,
+      "texto": "Quem escreveu 'Dom Quixote'?",
+      "alternativas": ["Shakespeare", "Machado de Assis", "Cervantes", "Victor Hugo"],
+      "respostaCorreta": "Cervantes"
+    }
+  ]
+  
