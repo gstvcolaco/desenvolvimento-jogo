@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Random;
 
 @Service
 public class PerguntasService {
@@ -15,6 +16,15 @@ public class PerguntasService {
 
     public Perguntas localizar(int id){
         Optional<Perguntas> perguntasBusca = perguntasRepository.findById(id);
+        if (perguntasBusca.isPresent()){
+            return  perguntasBusca.get();
+        }else {
+            return null;
+        }
+    }
+    public Perguntas sortear(){
+        int aleatorio = new Random().nextInt(164)+1;
+        Optional<Perguntas> perguntasBusca = perguntasRepository.findById(aleatorio);
         if (perguntasBusca.isPresent()){
             return  perguntasBusca.get();
         }else {

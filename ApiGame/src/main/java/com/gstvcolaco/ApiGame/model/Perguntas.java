@@ -7,6 +7,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+import java.util.Random;
+
 
 @Entity
 public class Perguntas {
@@ -19,7 +21,6 @@ public class Perguntas {
     String alt3;
     String alt4;
     String resposta;
-
 
     public String getAlt1() {
         return alt1;

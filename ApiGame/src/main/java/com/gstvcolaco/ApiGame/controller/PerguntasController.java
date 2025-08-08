@@ -21,8 +21,8 @@ public class PerguntasController {
         return ResponseEntity.ok(perguntasService.localizar(id));
     }
     @GetMapping()
-    public ResponseEntity<List<Perguntas>> pesquisar(){
-        return ResponseEntity.ok(perguntasService.pesquisar());
+    public ResponseEntity<Perguntas> pesquisar(){
+        return ResponseEntity.ok(perguntasService.sortear());
     }
     @PostMapping()
     public ResponseEntity<Perguntas> salvar(@RequestBody Perguntas perguntas){
